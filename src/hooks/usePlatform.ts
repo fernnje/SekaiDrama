@@ -36,12 +36,17 @@ export const PLATFORMS: PlatformInfo[] = [
     logo: "/shortmax.webp",
     apiBase: "/api/shortmax",
   },
-  {
-    id: "netshort",
-    name: "NetShort",
-    logo: "/netshort.webp",
-    apiBase: "/api/netshort",
-  },
+  // [TEMPORARILY DISABLED] NetShort - Dinonaktifkan sementara karena ada update API dari pihak NetShort.
+  // Platform ini tidak bisa digunakan sampai API baru sudah stabil dan disesuaikan.
+  // TODO: Aktifkan kembali setelah API NetShort yang baru sudah compatible.
+  // {
+  //   id: "netshort",
+  //   name: "NetShort",
+  //   logo: "/netshort.webp",
+  //   apiBase: "/api/netshort",
+  // },
+
+  // [TEMPORARILY DISABLED] Melolo - Dinonaktifkan sementara.
   // {
   //   id: "melolo",
   //   name: "Melolo",
